@@ -10,8 +10,6 @@ LABEL io.k8s.description="A basic http server child image" \
       io.openshift.expose-services="8080:http" \
       io.openshift.tags="apache, httpd"
 
-Use
-
 EXPOSE 8080
 
 LABEL io.openshift.expose-services="8080:http"
